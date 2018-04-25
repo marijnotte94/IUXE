@@ -1,0 +1,12 @@
+topic: ~NeedAssistance()
+language: dun
+
+# Defining extra concepts out of words or group of words
+concept:(help) [help "kan je mij helpen" verpleegster]
+concept:(callNurse) ["Ik roep een verpleegster" "Er komt iemand aan"]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+u:(~help) ~callNurse

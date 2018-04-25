@@ -1,0 +1,12 @@
+topic: ~Greetings()
+language: dun
+
+# Defining extra concepts out of words or group of words
+concept:(hello) ^rand[hallo hoi goedemorgen goeiedag]
+
+# Catching inputs and triggering outputs
+# Keep this disabled to always have it listen for this
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+u:(~hello) ~hello
