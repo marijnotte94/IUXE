@@ -7,11 +7,13 @@
     <Dialogs>
         <Dialog name="NeedAssistance" src="NeedAssistance/NeedAssistance.dlg" />
         <Dialog name="Greetings" src="Greetings/Greetings.dlg" />
+        <Dialog name="PROMquestionnaire" src="PROMquestionnaire/PROMquestionnaire.dlg" />
     </Dialogs>
     <Resources />
     <Topics>
         <Topic name="NeedAssistance_dun" src="NeedAssistance/NeedAssistance_dun.top" topicName="NeedAssistance" language="nl_NL" />
         <Topic name="Greetings_dun" src="Greetings/Greetings_dun.top" topicName="Greetings" language="nl_NL" />
+        <Topic name="PROMquestionnaire_dun" src="PROMquestionnaire/PROMquestionnaire_dun.top" topicName="PROMquestionnaire" language="nl_NL" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
