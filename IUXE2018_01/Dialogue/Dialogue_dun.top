@@ -1,0 +1,97 @@
+topic: ~Dialogue()
+language: dun
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+#concept settings
+concept:(spraak) [ \rspd=80\ ]
+
+#concept human inputs
+concept:(cijfer) [0 1 2 3 4 5 6 7 8 9 10]
+concept:(ja) [ja jawel klopt correct juist]
+concept:(nee) [nee neen niet {dat klopt niet}]
+concept:(bedoelen) ["wat bedoel je" "wat bedoelt u" bedoel bedoelt]
+concept:(overslaan) ["ik wil deze vraag" overslaan over slaan "overslaan graag" "overslaan alsjeblieft" "overslaan alstublieft"]
+concept:(zonder) [1 ja zonder "zonder enige moeite"]
+concept:(metenige) [2 "met enige"]
+concept:(metveel) [3 veel "met veel"]
+concept:(kanniet) [4 nee]
+concept:(weetniet) [weet {niet}]
+concept:(naarbed) ["half acht" "acht uur" "half negen" "negen uur" "half tien" "tien uur" "half elf" "elf uur" "half twaalf" "twaalf uur" "half een" "een uur" "half twee" "twee uur" "anders"]
+concept:(opstaan) ["vijf uur" "half zes" "zes uur" "half zeven" "zeven uur" "half acht" "acht uur" "half negen" "negen uur" "half tien" "tien uur" "half elf" "elf uur" "half twaalf" "anders"]
+concept:(inslaaptijd) [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120] 
+concept:(duurslaapproblemen) [weken maanden jaren]
+concept:(slaaphulpmiddelen) [medicijnen CPAP BPAP anders]
+
+#concept robot antwoorden
+concept:(nietverstaan) ^rand["dan heb ik het verkeerd verstaan" "dan heb ik het niet goed verstaan"] 
+concept:(herhaalvraag) ^rand["dan herhaal ik de vraag" "dan zal ik de vraag opnieuw stellen" "dan vraag ik het opnieuw"]
+concept:(volgendevraag) ^rand["Dan gaan we naar de volgende vraag" "De volgende vraag" "Vervolgens" "We gaan verder"]
+concept:(kloptdat) ^rand["Klopt dat" "Is dat juist" "Heb ik dat goed verstaan" "Is dat correct" "Begrijp ik dat goed"]
+concept:(okee) ^rand[OK "dat is duidelijk" "dat begrijp ik" "dank u"]
+concept:(vpkterugkomen) ^rand["De verpleegkundige zal er bij u op terugkomen" "De verpleegkundige komt er op terug" "We komen hier op terug" "We gaan hier later verder op in" "Hier zullen we later meer over vragen" "Dit zullen we later verder bespreken"]
+
+#Slaap intro
+u:(e:onStart) $output_webpagina=slaapintroductie Ik ga u enkele vragen stellen over uw slaap. ^gotoReactivate(slaappatrooneen)
+
+#Vraag slaappatroon naar bed gaan
+proposal: %slaappatrooneen $output_webpagina=slaappatrooneen $output_varname="Naar bed gaan" Mijn eerste vraag is \pau=1000\ gedurende de afgelopen maand, hoe laat bent u gewoonlijk naar bed gegaan?
+    u1:(_~naarbed) U zegt dat u gewoonlijk om $1 $output_varvalue=$1 $output_webpagina=slaappatrooneenantwoord naar bed ging \pau=500\ ~kloptdat
+        u2:(~ja) ~volgendevraag ^gotoReactivate(slaappatroontwee)
+        u2:(~nee) ~nietverstaan ~herhaalvraag ^gotoReactivate(slaappatrooneen)
+        
+#Vraag slaappatroon inslaaptijd
+proposal: %slaappatroontwee $output_webpagina=slaappatroontwee $output_varname="Inslaaptijd" \pau=1000\ Gedurende de afgelopen maand, hoe lang duurde het gemiddeld \pau=500\ in minuten \pau=500\ om in slaap te vallen?
+    u1:(_~inslaaptijd) U zegt dat u gemiddeld $1 $output_varvalue=$1 $output_webpagina=slaappatroontweeantwoord minuten nodig had om in slaap te vallen \pau=500\ ~kloptdat
+        u2:(~ja) ~volgendevraag ^gotoReactivate(slaappatroondrie)
+        u2:(~nee) ~nietverstaan ~herhaalvraag ^gotoReactivate(slaappatroontwee)
+        
+#Vraag slaappatroon opstaan
+proposal: %slaappatroondrie $output_webpagina=slaappatroondrie $output_varname="Opstaan" \pau=1000\ Gedurende de afgelopen maand, hoe laat bent u gewoonlijk opgestaan?
+    u1:(_~opstaan) U zegt dat u gemiddeld om $1 $output_varvalue=$1 $output_webpagina=slaappatroondrieantwoord opstond \pau=500\ ~kloptdat
+        u2:(_~ja) ~volgendevraag ^gotoReactivate(slaappatroonvier)
+        u2:(_~nee) ~nietverstaan ~herhaalvraag ^gotoReactivate(slaappatroondrie)
+        
+#Vraag slaappatroon uren geslapen
+proposal: %slaappatroonvier $output_webpagina=slaappatroonvier $output_varname="Uren geslapen" \pau=1000\ Gedurende de afgelopen maand, hoeveel uur heeft u echt geslapen ’s nachts? \pau=1000\ dit mag afwijken van het aantal uren dat u in bed heeft gelegen
+    u1:(_~cijfer) U zegt dat u gemiddeld $1 $output_varvalue=$1 $output_webpagina=slaappatroonvierantwoord uur geslapen heeft per nacht \pau=500\ ~kloptdat
+        u2:(_~ja) ~volgendevraag ^gotoReactivate(slaapproblemen)
+        u2:(_~nee) ~nietverstaan ~herhaalvraag ^gotoReactivate(slaappatroonvier)
+        
+#Vraag hoe lang slaapproblemen
+proposal: %slaapproblemen $output_webpagina=slaapproblemen $output_varname="Duur slaap problemen" \pau=1000\ Hoe lang bestaan uw slaapproblemen al? Enkele weken, maanden of jaren?
+    u1:(_~duurslaapproblemen) U zegt dat uw slaapproblem al enkele $1 $output_varvalue=$1 $output_webpagina=slaapproblemenantwoord duren \pau=500\ ~kloptdat
+        u2:(_~ja) ~volgendevraag ^gotoReactivate(slaaphulpmiddelen)
+        u2:(_~nee) ~nietverstaan ~herhaalvraag ^gotoReactivate(slaapproblemen)
+      
+#Vragen slaaphulpmiddelen
+proposal: %slaaphulpmiddelen $output_webpagina=slaaphulpmgebruikjanee $output_varname="Gebruik slaaphulpmiddelen" \pau=1000\ Gebruikt u slaaphulpmiddelen zoals medicijnen of apparatuur?
+    u1:(_~ja) $1 $output_varvalue=$1 ^gotoReactivate(welkeslaaphulpmiddelen)
+    u1:(_~nee) ^goto(slaap_end)
+
+#Vraag welke slaaphulpmiddelen
+proposal: %welkeslaaphulpmiddelen $output_webpagina=slaaphulpmgebruikwelk $output_varname="Welke slaaphulpmiddelen" Welke slaaphulpmiddelen gebruikt u?
+    u1:(_~slaaphulpmiddelen) U zegt dat u $1 $output_varvalue=$1 $output_webpagina=slaaphulpmgebruikwelkantwoord gebruikt \pau=500\ ~kloptdat
+        u2:(_~ja) ^gotoReactivate(slaap_end)
+        u2:(_~nee) ~nietverstaan ~herhaalvraag ^gotoReactivate(welkeslaaphulpmiddelen)      
+        
+        
+proposal: %slaap_end \pau=1000\ Dank u voor uw medewerking. $onStopped=1
+        
+
+        
+
+
+        
+
+        
+        
+
+

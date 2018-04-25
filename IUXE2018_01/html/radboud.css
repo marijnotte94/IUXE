@@ -1,0 +1,220 @@
+﻿/* stylesheet voor Radboud */
+
+
+.body {
+	font-family:Tahoma;
+	font-size:48px;
+	color:navy;
+}
+
+.bodyverpl {
+	width:1280px;
+	height:1000px;
+	font-family:Tahoma;
+	font-size:48px;
+	text-align:center;
+	color:black;
+	background-image:url('backgrverpl.png');
+	background-repeat:no-repeat;
+}
+
+.bodypatient{
+	font-family:Tahoma;
+	font-size:48px;
+	text-align:center;
+	color:black;
+	background-image:url('backgrpatient.png');
+	background-repeat:no-repeat;
+}
+
+.bodypatientfooter{
+	background-image:url('backgrpatientfooter.png')
+}
+
+.tabelmain {
+	border: 3px solid #000000;
+	font-size: 60px;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	width:1701px;
+	height:879px;
+	font-family: Tahoma;
+	
+}
+.celmijnradboud{
+	background-image:url('knop2.jpg');
+	color:white;
+	width:567px;
+	height:293px;
+}
+.celmeer{
+	background-image:url('knop3.jpg');
+	width:567px;
+	height:293px;
+}
+.celnormaal{
+	background-image:url('knop1.jpg');
+	width:567px;
+	height:293px;
+}
+.column{
+	width:426px;
+}
+.celagendaheader{
+	color:white;
+	background-color:navy
+}
+
+.logo {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.partitle{
+	margin-left:80px;
+	text-align:center;
+	width:1500px;
+}
+
+.partitleintro{
+	margin-left:80px;
+	text-align:center;
+	width:1500px;
+}
+
+.paranswers{
+	margin-left:100px;
+	text-align:left;
+	line-height:50px;
+}
+
+.paranswerslong{
+	margin-left:100px;
+	text-align:left;
+	line-height:50px;
+	line-height:70px;
+	width:1500px;
+}
+
+.partable{
+	margin-left:80px;
+	text-align:center;
+	width:1500px;
+}
+.partablekolom{
+	width:650px;
+}
+
+.partableoverslaan{
+	font-family:Tahoma;
+	font-size:48px;
+	color:navy;
+	text-align:center;
+	width:1300px;
+	background-color:#99FF99
+}
+
+.pariframe{
+	font-family:Tahoma;
+	font-size:60px;
+	color:navy;
+	margin-left:0px;
+	width:1300px;	
+	height:100px;
+	border:0px;
+}
+
+.pariframebedoelen{
+	font-family:Tahoma;
+	font-size:60px;
+	color:navy;
+	width:1300px;
+	text-align:center;
+	background-color:#99FF99;
+}
+
+.pariframekolom{
+	width:50%;
+}
+
+.tabeljanee{
+	text-align:center;
+	width:50%;
+}
+
+.tabelpatient {
+	border: 2px solid #000000;
+	font-size: 24px;
+	text-align: left;
+	border-style: solid;
+	border-width: 3px;
+	height: 200px;
+	font-family: Tahoma;
+	background-color: #99CCFF;
+	width: 100%;
+}
+
+.tabelmuziek {
+	border: 2px solid #000000;
+	font-size: 24px;
+	text-align: left;
+	border-style: solid;
+	border-width: 3px;
+	height: 200px;
+	font-family: Tahoma;
+	background-color: #99CCFF;
+	width: 100%;
+}
+
+.tabelmaaltijd {
+	border: 2px solid #000000;
+	font-size: 48px;
+	text-align: left;
+	border-style: solid;
+	border-width: 3px;
+	height: 200px;
+	font-family: Tahoma;
+	background-color: #99CCFF;
+	width: 100%;
+}
+
+.tabelmaaltijdcolumn {
+	width: 560px;
+}
+
+/* flexcontainer */
+
+.flex-container {
+	height: 200px;
+	width:1500px;
+	padding: 0;
+	margin: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row {
+	width: auto;
+	height: 200px;
+	margin: auto 30px;
+/*	background-color:white; */
+}
+
+.flex-item {
+	height:150px;
+	padding: 5px;
+	margin: 15px;
+	vertical-align:middle;
+	line-height: 100px;
+	color:black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: left;
+}
+

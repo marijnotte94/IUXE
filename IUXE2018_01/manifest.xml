@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="iuxe2018_01-8e1655" version="0.0.0">
+ <names>
+  <name lang="en_US">IUXE2018_temp</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>nl_NL</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>nl_NL</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
