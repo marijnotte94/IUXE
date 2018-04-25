@@ -16,8 +16,8 @@ concept:(continuePROM)["ga verder"]
 #robot outputs
 concept:(robotContinuePROM)["Laten we verder gaan" "we gaan verder"]
 
-#u:(e:onStart) $currentquestion=question1 $attempt=1 ^gotoReactivate($currentquestion)
-u:(e:onStart) ^gotoReactivate($currentquestion)
+u:(e:onStart) $currentquestion=question1 $attempt=1 ^gotoReactivate($currentquestion)
+#u:(e:onStart) ^gotoReactivate($currentquestion)
 #u:(~continuePROM) ~robotContinuePROM ^gotoReactivate($currentquestion)
 
 proposal:%question1 $currentquestion=question1 Dit is de eerste vraag \pau=1000\zeg ja of nee
