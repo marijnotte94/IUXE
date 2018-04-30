@@ -4,18 +4,22 @@
   <name lang="en_US">Untitled</name>
  </names>
  <supportedLanguages>
-  <language>en_US</language>
   <language>nl_NL</language>
  </supportedLanguages>
  <descriptionLanguages>
-  <language>en_US</language>
   <language>nl_NL</language>
  </descriptionLanguages>
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
-   <nature>interactive</nature>
+   <nature>solitary</nature>
    <permissions/>
   </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="PROMquestionnaire">
+   <topic language="nl_NL" path="PROMquestionnaire/PROMquestionnaire_dun.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="Greetings">
+   <topic language="nl_NL" path="Greetings/Greetings_dun.top"/>
+  </dialogContent>
  </contents>
 </package>

@@ -3,10 +3,15 @@ language: dun
 
 # Defining extra concepts out of words or group of words
 concept:(help) [help "kan je mij helpen" verpleegster]
-concept:(callNurse) ["Ik roep een verpleegster" "Er komt iemand aan"]
+concept:(callNurse) ["Ik roep een verpleegstertje" "Er komt iemand"]
+concept:(continuePROM)["ga verder" "laten we verder gaan"]
+concept:(stopPROM)[stop]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
-u:(~help) ~callNurse
+u:(~help) ^gotoReactivate(help) 
+proposal: %help ~callNurse \pau=1500\ Om verder te gaan, zeg ga verder \pau=1000\ om the stoppen, zeg stop
+    u1:(~continuePROM) Ok we gaan verder #^topicTag(PROMquestionnaire, question1)
+    u1:(~stopPROM) Ok we stoppen
