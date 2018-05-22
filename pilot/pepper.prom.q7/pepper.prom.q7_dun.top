@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q7()
+language: dun
+
+concept:(pepper.prom.q7) ["In welke provincie zijn we?"]
+
+u:(e:onStart) ~pepper.prom.q7 $onStopped=1

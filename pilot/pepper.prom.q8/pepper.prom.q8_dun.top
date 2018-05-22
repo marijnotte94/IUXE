@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q8()
+language: dun
+
+concept:(pepper.prom.q8) ["In welke stad zijn we?"]
+
+u:(e:onStart) ~pepper.prom.q8 $onStopped=1

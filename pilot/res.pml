@@ -27,6 +27,11 @@
         <Dialog name="pepper.prom.inter2" src="pepper.prom.inter2/pepper.prom.inter2.dlg" />
         <Dialog name="pepper.intro.explanation.start" src="pepper.intro.explanation.start/pepper.intro.explanation.start.dlg" />
         <Dialog name="pepper.intro.explanation" src="pepper.intro.explanation/pepper.intro.explanation.dlg" />
+        <Dialog name="pepper.prom.q6" src="pepper.prom.q6/pepper.prom.q6.dlg" />
+        <Dialog name="pepper.prom.q7" src="pepper.prom.q7/pepper.prom.q7.dlg" />
+        <Dialog name="pepper.prom.q8" src="pepper.prom.q8/pepper.prom.q8.dlg" />
+        <Dialog name="pepper.prom.q9" src="pepper.prom.q9/pepper.prom.q9.dlg" />
+        <Dialog name="pepper.prom.q10" src="pepper.prom.q10/pepper.prom.q10.dlg" />
     </Dialogs>
     <Resources />
     <Topics>
@@ -54,6 +59,11 @@
         <Topic name="pepper.prom.inter2_dun" src="pepper.prom.inter2/pepper.prom.inter2_dun.top" topicName="pepper.prom.inter2" language="nl_NL" />
         <Topic name="pepper.intro.explanation.start_dun" src="pepper.intro.explanation.start/pepper.intro.explanation.start_dun.top" topicName="pepper.intro.explanation.start" language="nl_NL" />
         <Topic name="pepper.intro.explanation_dun" src="pepper.intro.explanation/pepper.intro.explanation_dun.top" topicName="" language="" />
+        <Topic name="pepper.prom.q6_dun" src="pepper.prom.q6/pepper.prom.q6_dun.top" topicName="pepper.prom.q6" language="nl_NL" />
+        <Topic name="pepper.prom.q7_dun" src="pepper.prom.q7/pepper.prom.q7_dun.top" topicName="pepper.prom.q7" language="nl_NL" />
+        <Topic name="pepper.prom.q8_dun" src="pepper.prom.q8/pepper.prom.q8_dun.top" topicName="pepper.prom.q8" language="nl_NL" />
+        <Topic name="pepper.prom.q9_dun" src="pepper.prom.q9/pepper.prom.q9_dun.top" topicName="pepper.prom.q9" language="nl_NL" />
+        <Topic name="pepper.prom.q10_dun" src="pepper.prom.q10/pepper.prom.q10_dun.top" topicName="pepper.prom.q10" language="nl_NL" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

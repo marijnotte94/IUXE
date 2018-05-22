@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q10()
+language: dun
+
+concept:(pepper.prom.q10) ["Op welke verdieping zijn we?"]
+
+u:(e:onStart) ~pepper.prom.q10 $onStopped=1
