@@ -2,7 +2,7 @@
 <Package name="res" format_version="4">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
-        <BehaviorDescription name="behavior" src="pepper.prom.q3" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="pepper.generic.exclamation.positive" src="pepper.generic.exclamation.positive/pepper.generic.exclamation.positive.dlg" />
