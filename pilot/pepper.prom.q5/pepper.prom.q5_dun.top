@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q5()
+language: dun
+
+concept:(pepper.prom.q5) ["De hoeveelste is het vandaag?"]
+
+u:(e:onStart) ~pepper.prom.q5 $onStopped=1

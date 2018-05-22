@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q4()
+language: dun
+
+concept:(pepper.prom.q4) ["Welke dag is het vandaag?"]
+
+u:(e:onStart) ~pepper.prom.q4 $onStopped=1
