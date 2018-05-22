@@ -1,0 +1,11 @@
+topic: ~pepper.intro.procedure()
+language: dun
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Ik ga u begeleiden vandaag. We gaan een experiment uitvoeren. Hier is geen verpleegkundige bij aanwezig. Als u iets niet snapt of om een andere reden de verpleegster nodig hebt kan dat. U kunt daar altijd om vragen. $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

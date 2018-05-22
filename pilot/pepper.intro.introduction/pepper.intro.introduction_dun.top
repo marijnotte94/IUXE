@@ -1,0 +1,6 @@
+topic: ~pepper.generic.introduction()
+language: dun
+
+concept:(pepper.generic.introduction) ^rand["Mijn naam is Pepper" "Ik ben Pepper"]
+
+u:(e:onStart) $doAnimation=1 ~pepper.generic.introduction

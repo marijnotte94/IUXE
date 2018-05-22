@@ -1,0 +1,8 @@
+topic: ~pepper.generic.exclamation.positive()
+language: dun
+
+include:constants.top
+
+concept:(pepper.generic.exclamation.positive) ^rand[Mooi Prima Uitstekend "Uitstekend ~values.name" Goedzo "Goedzo ~values.name" "Heel goed" "Heel goed ~values.name"]
+
+u:(e:onStart) $doAnimation=1 ~pepper.generic.exclamation.positive
