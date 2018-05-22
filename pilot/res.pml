@@ -53,7 +53,7 @@
         <Topic name="pepper.prom.q5_dun" src="pepper.prom.q5/pepper.prom.q5_dun.top" topicName="pepper.prom.q5" language="nl_NL" />
         <Topic name="pepper.prom.inter2_dun" src="pepper.prom.inter2/pepper.prom.inter2_dun.top" topicName="pepper.prom.inter2" language="nl_NL" />
         <Topic name="pepper.intro.explanation.start_dun" src="pepper.intro.explanation.start/pepper.intro.explanation.start_dun.top" topicName="pepper.intro.explanation.start" language="nl_NL" />
-        <Topic name="pepper.intro.explanation_dun" src="pepper.intro.explanation/pepper.intro.explanation_dun.top" topicName="pepper.intro.explanation" language="nl_NL" />
+        <Topic name="pepper.intro.explanation_dun" src="pepper.intro.explanation/pepper.intro.explanation_dun.top" topicName="" language="" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

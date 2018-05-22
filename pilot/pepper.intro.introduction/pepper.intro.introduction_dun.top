@@ -1,6 +1,6 @@
 topic: ~pepper.generic.introduction()
 language: dun
 
-concept:(pepper.generic.introduction) ^rand["Mijn naam is Pepper" "Ik ben Pepper"]
+concept:(pepper.generic.introduction) ^rand["Mijn naam is Peppper" "Ik ben Peppper"]
 
-u:(e:onStart) $doAnimation=1 ~pepper.generic.introduction
+u:(e:onStart) $doAnimation=1 ~pepper.generic.introduction $onStopped=1    
