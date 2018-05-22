@@ -1,0 +1,6 @@
+topic: ~pepper.prom.finalize()
+language: dun
+
+concept:(pepper.prom.finalize.thankyou) ^rand["Dat was de laatste vraag" "Het is nu afgelopen" "Ik heb geen vragen meer" "Bedankt voor de hulp" "Heel erg bedankt"] 
+
+u:(e:onStart) $doAnimation=1 ~pepper.prom.finalize.thankyou Ik ga weer aan het werk. Ik moet nog veel voorbereiden voor het feest. De verpleegkundige komt er aan $onStopped=1

@@ -32,6 +32,8 @@
         <Dialog name="pepper.prom.q8" src="pepper.prom.q8/pepper.prom.q8.dlg" />
         <Dialog name="pepper.prom.q9" src="pepper.prom.q9/pepper.prom.q9.dlg" />
         <Dialog name="pepper.prom.q10" src="pepper.prom.q10/pepper.prom.q10.dlg" />
+        <Dialog name="pepper.intro.letsstart" src="pepper.intro.letsstart/pepper.intro.letsstart.dlg" />
+        <Dialog name="pepper.prom.finalize" src="pepper.prom.finalize/pepper.prom.finalize.dlg" />
     </Dialogs>
     <Resources>
         <File name="Question1" src="html/Question1.html" />
@@ -90,6 +92,8 @@
         <Topic name="pepper.prom.q8_dun" src="pepper.prom.q8/pepper.prom.q8_dun.top" topicName="pepper.prom.q8" language="nl_NL" />
         <Topic name="pepper.prom.q9_dun" src="pepper.prom.q9/pepper.prom.q9_dun.top" topicName="pepper.prom.q9" language="nl_NL" />
         <Topic name="pepper.prom.q10_dun" src="pepper.prom.q10/pepper.prom.q10_dun.top" topicName="pepper.prom.q10" language="nl_NL" />
+        <Topic name="pepper.intro.letsstart_dun" src="pepper.intro.letsstart/pepper.intro.letsstart_dun.top" topicName="pepper.intro.letsstart" language="nl_NL" />
+        <Topic name="pepper.prom.finalize_dun" src="pepper.prom.finalize/pepper.prom.finalize_dun.top" topicName="pepper.prom.finalize" language="nl_NL" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

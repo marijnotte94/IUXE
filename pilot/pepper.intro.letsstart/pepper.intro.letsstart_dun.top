@@ -1,0 +1,6 @@
+topic: ~pepper.intro.letsstart()
+language: dun
+
+concept:(pepper.intro.letsstart) ^rand["Dan gaan we beginning" "Laten we beginnen" "Het onderzoek start nu" "Het onderzoek gaat beginnen"]
+
+u:(e:onStart) ~pepper.intro.letsstart $onStopped=1
