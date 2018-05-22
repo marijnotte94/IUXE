@@ -2,4 +2,4 @@ topic: ~pepper.prom.q9()
 language: dun
 concept:(pepper.prom.q9) ^rand["Wat is mijn naam?" "Weet u mijn naam nog?" ]
 
-u:(e:onStart) ~pepper.prom.q9 $onStopped=1
+u:(e:onStart) $showPage=Question9 ~pepper.prom.q9 $onStopped=1

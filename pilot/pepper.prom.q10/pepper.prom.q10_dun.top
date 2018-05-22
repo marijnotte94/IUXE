@@ -3,4 +3,4 @@ language: dun
 
 concept:(pepper.prom.q10) ["Op welke verdieping zijn we?"]
 
-u:(e:onStart) ~pepper.prom.q10 $onStopped=1
+u:(e:onStart) $showPage=Question10 ~pepper.prom.q10 $onStopped=1

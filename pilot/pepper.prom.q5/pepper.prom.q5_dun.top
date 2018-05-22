@@ -3,4 +3,4 @@ language: dun
 
 concept:(pepper.prom.q5) ["De hoeveelste is het vandaag?"]
 
-u:(e:onStart) ~pepper.prom.q5 $onStopped=1
+u:(e:onStart) $showPage=Question5 ~pepper.prom.q5 $onStopped=1

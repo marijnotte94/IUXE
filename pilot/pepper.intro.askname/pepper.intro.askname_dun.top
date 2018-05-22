@@ -3,4 +3,4 @@ language: dun
 
 concept:(pepper.generic.askname) ^rand["Wat is uw naam?" "Wie bent u?" "Hoe heet u?"]
 
-u:(e:onStart) $doAnimation=1 ~pepper.generic.askname
+u:(e:onStart) $doAnimation=1 ~pepper.generic.askname $onStopped=1

@@ -3,4 +3,4 @@ language: dun
 
 concept:(pepper.prom.q6) ["In welk land zijn we?" "In welk land leven we?"]
 
-u:(e:onStart) ~pepper.prom.q6 $onStopped=1
+u:(e:onStart) $showPage=Question6 ~pepper.prom.q6 $onStopped=1
