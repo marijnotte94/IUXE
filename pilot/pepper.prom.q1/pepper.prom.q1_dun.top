@@ -3,4 +3,4 @@ language: dun
 
 concept:(pepper.prom.q1) ^rand["Kunt u mij vertellen welk jaar het is?" "In welk jaartal zijn we?" "In welk jaar zijn we eigenlijk?"]
 
-u:(e:onStart) ~pepper.prom.q1 $onStopped=1
+u:(e:onStart) $showPage=Question1 ~pepper.prom.q1 $onStopped=1

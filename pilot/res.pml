@@ -33,7 +33,33 @@
         <Dialog name="pepper.prom.q9" src="pepper.prom.q9/pepper.prom.q9.dlg" />
         <Dialog name="pepper.prom.q10" src="pepper.prom.q10/pepper.prom.q10.dlg" />
     </Dialogs>
-    <Resources />
+    <Resources>
+        <File name="Question1" src="html/Question1.html" />
+        <File name="Question10" src="html/Question10.html" />
+        <File name="Question11" src="html/Question11.html" />
+        <File name="Question13" src="html/Question13.html" />
+        <File name="Question14" src="html/Question14.html" />
+        <File name="Question15" src="html/Question15.html" />
+        <File name="Question16" src="html/Question16.html" />
+        <File name="Question17" src="html/Question17.html" />
+        <File name="Question18" src="html/Question18.html" />
+        <File name="Question19" src="html/Question19.html" />
+        <File name="Question2" src="html/Question2.html" />
+        <File name="Question20" src="html/Question20.html" />
+        <File name="Question21" src="html/Question21.html" />
+        <File name="Question3" src="html/Question3.html" />
+        <File name="Question4" src="html/Question4.html" />
+        <File name="Question5" src="html/Question5.html" />
+        <File name="Question6" src="html/Question6.html" />
+        <File name="Question7" src="html/Question7.html" />
+        <File name="Question8" src="html/Question8.html" />
+        <File name="Question9" src="html/Question9.html" />
+        <File name="door" src="html/door.jpg" />
+        <File name="horloge" src="html/horloge.jpg" />
+        <File name="potlood" src="html/potlood.jpg" />
+        <File name="radboud" src="html/radboud.css" />
+        <File name="vorm" src="html/vorm.JPG" />
+    </Resources>
     <Topics>
         <Topic name="pepper.generic.exclamation.positive_dun" src="pepper.generic.exclamation.positive/pepper.generic.exclamation.positive_dun.top" topicName="pepper.generic.exclamation.positive" language="nl_NL" />
         <Topic name="settings_dun" src="settings/settings_dun.top" topicName="settings" language="nl_NL" />
