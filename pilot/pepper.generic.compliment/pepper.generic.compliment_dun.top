@@ -1,7 +1,7 @@
 topic: ~pepper.generic.compliment()
 language: dun
 
-include:constants.top
+include:constants_dun.top
 
 concept:(pepper.generic.compliment) ^rand["Heel erg goed" "Heel erg goed ~values.name" "U doet het erg goed" "U doet het erg goed ~values.name" "U bent goed bezig" "U bent goed bezig ~values.name" "U doet goed uw best" "U doet goed uw best ~values.name"]
 

@@ -1,7 +1,7 @@
 topic: ~pepper.generic.exclamation.positive()
 language: dun
 
-include:constants.top
+include:constants_dun.top
 
 concept:(pepper.generic.exclamation.positive) ^rand[Mooi Prima Uitstekend "Uitstekend ~values.name" Goedzo "Goedzo ~values.name" "Heel goed" "Heel goed ~values.name"]
 
