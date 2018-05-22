@@ -1,0 +1,6 @@
+topic: ~pepper.generic.callnurse()
+language: dun
+
+concept:(pepper.generic.callnurse) ^rand["Ik roep de verpleegster" "Ik haal de verpleegster erbij" "Ik bel een verpleegster"]
+
+u:(e:onStart) ~pepper.generic.callnurse $onStopped=1

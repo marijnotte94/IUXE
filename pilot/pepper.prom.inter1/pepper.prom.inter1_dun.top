@@ -1,0 +1,6 @@
+topic: ~pepper.prom.inter1()
+language: dun
+
+concept:(pepper.prom.inter1) ["Ik heb het erg druk de laatste tijd. Zo druk, dat ik geen tijdsbesef meer heb. Kunt u mij de volledige datum van vandaag vertellen?"]
+
+u:(e:onStart) $doAnimation=1 ~pepper.prom.inter1 $onStopped=1

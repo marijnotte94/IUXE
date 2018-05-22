@@ -1,0 +1,7 @@
+topic: ~pepper.prom.q1()
+language: dun
+
+# Defining extra concepts out of words or group of words
+concept:(pepper.prom.q1) ^rand[hello hi hey "good morning" greetings]
+
+u:(e:onStart) ~pepper.prom.q1 $onStopped=1
