@@ -34,6 +34,7 @@
         <Dialog name="pepper.prom.q10" src="pepper.prom.q10/pepper.prom.q10.dlg" />
         <Dialog name="pepper.intro.letsstart" src="pepper.intro.letsstart/pepper.intro.letsstart.dlg" />
         <Dialog name="pepper.prom.finalize" src="pepper.prom.finalize/pepper.prom.finalize.dlg" />
+        <Dialog name="pepper.prom.q11" src="pepper.prom.q11/pepper.prom.q11.dlg" />
     </Dialogs>
     <Resources>
         <File name="Question1" src="html/Question1.html" />
@@ -68,10 +69,10 @@
         <Topic name="pepper.generic.ask.understood_dun" src="pepper.generic.ask.understood/pepper.generic.ask.understood_dun.top" topicName="pepper.generic.ask.understood" language="nl_NL" />
         <Topic name="pepper.generic.ask.notunderstood_dun" src="pepper.generic.ask.notunderstood/pepper.generic.ask.notunderstood_dun.top" topicName="pepper.generic.ask.notunderstood" language="nl_NL" />
         <Topic name="pepper.intro.greetings_dun" src="pepper.intro.greetings/pepper.intro.greetings_dun.top" topicName="pepper.intro.greetings" language="nl_NL" />
-        <Topic name="pepper.intro.askname_dun" src="pepper.intro.askname/pepper.intro.askname_dun.top" topicName="pepper.generic.askname" language="nl_NL" />
-        <Topic name="pepper.intro.welcome_dun" src="pepper.intro.welcome/pepper.intro.welcome_dun.top" topicName="pepper.generic.welcome" language="nl_NL" />
+        <Topic name="pepper.intro.askname_dun" src="pepper.intro.askname/pepper.intro.askname_dun.top" topicName="pepper.intro.askname" language="nl_NL" />
+        <Topic name="pepper.intro.welcome_dun" src="pepper.intro.welcome/pepper.intro.welcome_dun.top" topicName="pepper.intro.welcome" language="nl_NL" />
         <Topic name="pepper.intro.procedure_dun" src="pepper.intro.procedure/pepper.intro.procedure_dun.top" topicName="pepper.intro.procedure" language="nl_NL" />
-        <Topic name="pepper.intro.introduction_dun" src="pepper.intro.introduction/pepper.intro.introduction_dun.top" topicName="pepper.generic.introduction" language="nl_NL" />
+        <Topic name="pepper.intro.introduction_dun" src="pepper.intro.introduction/pepper.intro.introduction_dun.top" topicName="pepper.intro.introduction" language="nl_NL" />
         <Topic name="pepper.generic.callnurse_dun" src="pepper.generic.callnurse/pepper.generic.callnurse_dun.top" topicName="pepper.generic.callnurse" language="nl_NL" />
         <Topic name="pepper.generic.compliment_dun" src="pepper.generic.compliment/pepper.generic.compliment_dun.top" topicName="pepper.generic.compliment" language="nl_NL" />
         <Topic name="pepper.prom.cananswer_dun" src="pepper.prom.cananswer/pepper.prom.cananswer_dun.top" topicName="pepper.prom.cananswer" language="nl_NL" />
@@ -86,7 +87,7 @@
         <Topic name="pepper.prom.q5_dun" src="pepper.prom.q5/pepper.prom.q5_dun.top" topicName="pepper.prom.q5" language="nl_NL" />
         <Topic name="pepper.prom.inter2_dun" src="pepper.prom.inter2/pepper.prom.inter2_dun.top" topicName="pepper.prom.inter2" language="nl_NL" />
         <Topic name="pepper.intro.explanation.start_dun" src="pepper.intro.explanation.start/pepper.intro.explanation.start_dun.top" topicName="pepper.intro.explanation.start" language="nl_NL" />
-        <Topic name="pepper.intro.explanation_dun" src="pepper.intro.explanation/pepper.intro.explanation_dun.top" topicName="" language="" />
+        <Topic name="pepper.intro.explanation_dun" src="pepper.intro.explanation/pepper.intro.explanation_dun.top" topicName="pepper.intro.explanation" language="nl_NL" />
         <Topic name="pepper.prom.q6_dun" src="pepper.prom.q6/pepper.prom.q6_dun.top" topicName="pepper.prom.q6" language="nl_NL" />
         <Topic name="pepper.prom.q7_dun" src="pepper.prom.q7/pepper.prom.q7_dun.top" topicName="pepper.prom.q7" language="nl_NL" />
         <Topic name="pepper.prom.q8_dun" src="pepper.prom.q8/pepper.prom.q8_dun.top" topicName="pepper.prom.q8" language="nl_NL" />
@@ -94,6 +95,7 @@
         <Topic name="pepper.prom.q10_dun" src="pepper.prom.q10/pepper.prom.q10_dun.top" topicName="pepper.prom.q10" language="nl_NL" />
         <Topic name="pepper.intro.letsstart_dun" src="pepper.intro.letsstart/pepper.intro.letsstart_dun.top" topicName="pepper.intro.letsstart" language="nl_NL" />
         <Topic name="pepper.prom.finalize_dun" src="pepper.prom.finalize/pepper.prom.finalize_dun.top" topicName="pepper.prom.finalize" language="nl_NL" />
+        <Topic name="pepper.prom.q11_dun" src="pepper.prom.q11/pepper.prom.q11_dun.top" topicName="pepper.prom.q11" language="nl_NL" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
