@@ -1,6 +1,0 @@
-topic: ~pepper.prom.q18()
-language: dun
-
-concept:(pepper.prom.q18) ["Neem een papier dat op tafel ligt met uw rechterhand, vouw het in twee en leg het op de grond."]
-
-u:(e:onStart) $showPage=Question18 ~pepper.prom.q18 $onStopped=1

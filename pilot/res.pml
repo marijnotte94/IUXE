@@ -34,6 +34,7 @@
         <Dialog name="pepper.prom.q10" src="pepper.prom.q10/pepper.prom.q10.dlg" />
         <Dialog name="pepper.intro.letsstart" src="pepper.intro.letsstart/pepper.intro.letsstart.dlg" />
         <Dialog name="pepper.prom.finalize" src="pepper.prom.finalize/pepper.prom.finalize.dlg" />
+        <Dialog name="pepper.prom.q11" src="pepper.prom.q11/pepper.prom.q11.dlg" />
     </Dialogs>
     <Resources>
         <File name="Question1" src="html/Question1.html" />
@@ -94,6 +95,7 @@
         <Topic name="pepper.prom.q10_dun" src="pepper.prom.q10/pepper.prom.q10_dun.top" topicName="pepper.prom.q10" language="nl_NL" />
         <Topic name="pepper.intro.letsstart_dun" src="pepper.intro.letsstart/pepper.intro.letsstart_dun.top" topicName="pepper.intro.letsstart" language="nl_NL" />
         <Topic name="pepper.prom.finalize_dun" src="pepper.prom.finalize/pepper.prom.finalize_dun.top" topicName="pepper.prom.finalize" language="nl_NL" />
+<<<<<<< HEAD
         <Topic name="constants" src="behavior_1/constants.top" topicName="values" language="nl_NL" />
         <Topic name="constants" src="pepper.generic.ask.notunderstood/constants.top" topicName="values" language="nl_NL" />
         <Topic name="constants" src="pepper.generic.ask.understood/constants.top" topicName="values" language="nl_NL" />
@@ -103,6 +105,9 @@
         <Topic name="constants" src="pepper.intro.introduction/constants.top" topicName="values" language="nl_NL" />
         <Topic name="constants" src="pepper.intro.procedure/constants.top" topicName="values" language="nl_NL" />
         <Topic name="constants" src="pepper.intro.welcome/constants.top" topicName="values" language="nl_NL" />
+=======
+        <Topic name="pepper.prom.q11_dun" src="pepper.prom.q11/pepper.prom.q11_dun.top" topicName="pepper.prom.q11" language="nl_NL" />
+>>>>>>> 31659bcb525ff0d0585b904728f63fe64ac1556b
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="nl_NL">

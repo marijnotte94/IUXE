@@ -1,7 +1,0 @@
-topic: ~pepper.prom.q15()
-language: dun
-
-concept:(pepper.prom.q15) ["Wat is dit?"]
-
-u:(e:onStart) $showPage=Question15 ~pepper.prom.q15 $onStopped=1
-

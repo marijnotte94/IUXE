@@ -1,6 +1,0 @@
-topic: ~pepper.prom.q12()
-language: dun
-
-concept:(pepper.prom.q12) ["Wilt u van het getal 100, \pau=100\ 7 aftrekken? \pau=100\ Van de uitkomst trekt u dan telkens weer 7 af en zo verder tot ik “stop” zeg."]
-
-u:(e:onStart) $showPage=Question12 ~pepper.prom.q12 $onStopped=1

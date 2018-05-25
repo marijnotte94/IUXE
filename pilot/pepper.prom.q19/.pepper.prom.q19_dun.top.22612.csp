@@ -1,6 +1,0 @@
-topic: ~pepper.prom.q19()
-language: dun
-
-concept:(pepper.prom.q19) ["Lees wat op het scherm op mijn buik staat en doe wat er gevraagd wordt."]
-
-u:(e:onStart) $showPage=Question19 ~pepper.prom.q19 $onStopped=1

@@ -1,6 +1,0 @@
-topic: ~pepper.prom.q11()
-language: dun
-
-concept:(pepper.prom.q11) ["Kunt u de volgende woorden herhalen? \pau=700\ Sigaar \pau=500\ Bloem   \pau=500\ Tafel"]
-
-u:(e:onStart) $showPage=Question11 ~pepper.prom.q11 $onStopped=1
