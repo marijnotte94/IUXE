@@ -51,6 +51,9 @@
         <Dialog name="pepper.prom.q19" src="pepper.prom.q19/pepper.prom.q19.dlg" />
         <Dialog name="pepper.prom.q20" src="pepper.prom.q20/pepper.prom.q20.dlg" />
         <Dialog name="pepper.prom.q21" src="pepper.prom.q21/pepper.prom.q21.dlg" />
+        <Dialog name="pepper.prom.inter10" src="pepper.prom.inter10/pepper.prom.inter10.dlg" />
+        <Dialog name="pepper.prom.inter9" src="pepper.prom.inter9/pepper.prom.inter9.dlg" />
+        <Dialog name="pepper.prom.inter6" src="pepper.prom.inter6/pepper.prom.inter6.dlg" />
     </Dialogs>
     <Resources>
         <File name="Question1" src="html/Question1.html" />
@@ -78,6 +81,7 @@
         <File name="potlood" src="html/potlood.jpg" />
         <File name="radboud" src="html/radboud.css" />
         <File name="vorm" src="html/vorm.JPG" />
+        <File name="Question12" src="html/Question12.html" />
     </Resources>
     <Topics>
         <Topic name="pepper.generic.exclamation.positive_dun" src="pepper.generic.exclamation.positive/pepper.generic.exclamation.positive_dun.top" topicName="pepper.generic.exclamation.positive" language="nl_NL" />
@@ -137,6 +141,9 @@
         <Topic name="pepper.prom.q19_dun" src="pepper.prom.q19/pepper.prom.q19_dun.top" topicName="pepper.prom.q19" language="nl_NL" />
         <Topic name="pepper.prom.q20_dun" src="pepper.prom.q20/pepper.prom.q20_dun.top" topicName="pepper.prom.q20" language="nl_NL" />
         <Topic name="pepper.prom.q21_dun" src="pepper.prom.q21/pepper.prom.q21_dun.top" topicName="pepper.prom.q21" language="nl_NL" />
+        <Topic name="pepper.prom.inter10_dun" src="pepper.prom.inter10/pepper.prom.inter10_dun.top" topicName="pepper.prom.inter10" language="nl_NL" />
+        <Topic name="pepper.prom.inter9_dun" src="pepper.prom.inter9/pepper.prom.inter9_dun.top" topicName="pepper.prom.inter9" language="nl_NL" />
+        <Topic name="pepper.prom.inter6_dun" src="pepper.prom.inter6/pepper.prom.inter6_dun.top" topicName="pepper.prom.inter6" language="nl_NL" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="nl_NL">

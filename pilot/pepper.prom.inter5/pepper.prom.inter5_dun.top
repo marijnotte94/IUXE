@@ -1,11 +1,9 @@
 topic: ~pepper.prom.inter5()
 language: dun
 
-# Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(pepper.prom.inter5)["Ik heb 100 mensen uitgenodigd. Helaas heeft een aantal gasten afgemeld Kunt u mij helpen om uit te rekenen hoeveel gasten er nog komen?
+."]
 
-# Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
 
-# Replying to speech
-#u:(~hello) ~hello
+
+u:(e:onStart) ~pepper.prom.inter5 $onStopped=1

@@ -1,11 +1,8 @@
 topic: ~pepper.prom.inter7()
 language: dun
 
-# Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(pepper.prom.inter7)["Ik ben alweer vergeten wat ik moet kopen voor het feest. Weet u het nog?"]
 
-# Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
 
-# Replying to speech
-#u:(~hello) ~hello
+
+u:(e:onStart) ~pepper.prom.inter7 $onStopped=1

@@ -15,5 +15,14 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter10">
+   <topic path="pepper.prom.inter10/pepper.prom.inter10_dun.top" language="nl_NL"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter9">
+   <topic path="pepper.prom.inter9/pepper.prom.inter9_dun.top" language="nl_NL"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter6">
+   <topic path="pepper.prom.inter6/pepper.prom.inter6_dun.top" language="nl_NL"/>
+  </dialogContent>
  </contents>
 </package>
