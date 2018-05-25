@@ -34,6 +34,23 @@
         <Dialog name="pepper.prom.q10" src="pepper.prom.q10/pepper.prom.q10.dlg" />
         <Dialog name="pepper.intro.letsstart" src="pepper.intro.letsstart/pepper.intro.letsstart.dlg" />
         <Dialog name="pepper.prom.finalize" src="pepper.prom.finalize/pepper.prom.finalize.dlg" />
+        <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
+        <Dialog name="pepper.prom.inter3" src="pepper.prom.inter3/pepper.prom.inter3.dlg" />
+        <Dialog name="pepper.prom.inter4" src="pepper.prom.inter4/pepper.prom.inter4.dlg" />
+        <Dialog name="pepper.prom.inter5" src="pepper.prom.inter5/pepper.prom.inter5.dlg" />
+        <Dialog name="pepper.prom.inter7" src="pepper.prom.inter7/pepper.prom.inter7.dlg" />
+        <Dialog name="pepper.prom.inter8" src="pepper.prom.inter8/pepper.prom.inter8.dlg" />
+        <Dialog name="pepper.prom.q11" src="pepper.prom.q11/pepper.prom.q11.dlg" />
+        <Dialog name="pepper.prom.q12" src="pepper.prom.q12/pepper.prom.q12.dlg" />
+        <Dialog name="pepper.prom.q13" src="pepper.prom.q13/pepper.prom.q13.dlg" />
+        <Dialog name="pepper.prom.q14" src="pepper.prom.q14/pepper.prom.q14.dlg" />
+        <Dialog name="pepper.prom.q15" src="pepper.prom.q15/pepper.prom.q15.dlg" />
+        <Dialog name="pepper.prom.q16" src="pepper.prom.q16/pepper.prom.q16.dlg" />
+        <Dialog name="pepper.prom.q17" src="pepper.prom.q17/pepper.prom.q17.dlg" />
+        <Dialog name="pepper.prom.q18" src="pepper.prom.q18/pepper.prom.q18.dlg" />
+        <Dialog name="pepper.prom.q19" src="pepper.prom.q19/pepper.prom.q19.dlg" />
+        <Dialog name="pepper.prom.q20" src="pepper.prom.q20/pepper.prom.q20.dlg" />
+        <Dialog name="pepper.prom.q21" src="pepper.prom.q21/pepper.prom.q21.dlg" />
     </Dialogs>
     <Resources>
         <File name="Question1" src="html/Question1.html" />
@@ -103,6 +120,23 @@
         <Topic name="constants" src="pepper.intro.introduction/constants.top" topicName="values" language="nl_NL" />
         <Topic name="constants" src="pepper.intro.procedure/constants.top" topicName="values" language="nl_NL" />
         <Topic name="constants" src="pepper.intro.welcome/constants.top" topicName="values" language="nl_NL" />
+        <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
+        <Topic name="pepper.prom.inter3_dun" src="pepper.prom.inter3/pepper.prom.inter3_dun.top" topicName="pepper.prom.inter3" language="nl_NL" />
+        <Topic name="pepper.prom.inter4_dun" src="pepper.prom.inter4/pepper.prom.inter4_dun.top" topicName="pepper.prom.inter4" language="nl_NL" />
+        <Topic name="pepper.prom.inter5_dun" src="pepper.prom.inter5/pepper.prom.inter5_dun.top" topicName="pepper.prom.inter5" language="nl_NL" />
+        <Topic name="pepper.prom.inter7_dun" src="pepper.prom.inter7/pepper.prom.inter7_dun.top" topicName="pepper.prom.inter7" language="nl_NL" />
+        <Topic name="pepper.prom.inter8_dun" src="pepper.prom.inter8/pepper.prom.inter8_dun.top" topicName="pepper.prom.inter8" language="nl_NL" />
+        <Topic name="pepper.prom.q11_dun" src="pepper.prom.q11/pepper.prom.q11_dun.top" topicName="pepper.prom.q11" language="nl_NL" />
+        <Topic name="pepper.prom.q12_dun" src="pepper.prom.q12/pepper.prom.q12_dun.top" topicName="pepper.prom.q12" language="nl_NL" />
+        <Topic name="pepper.prom.q13_dun" src="pepper.prom.q13/pepper.prom.q13_dun.top" topicName="pepper.prom.q13" language="nl_NL" />
+        <Topic name="pepper.prom.q14_dun" src="pepper.prom.q14/pepper.prom.q14_dun.top" topicName="pepper.prom.q14" language="nl_NL" />
+        <Topic name="pepper.prom.q15_dun" src="pepper.prom.q15/pepper.prom.q15_dun.top" topicName="pepper.prom.q15" language="nl_NL" />
+        <Topic name="pepper.prom.q16_dun" src="pepper.prom.q16/pepper.prom.q16_dun.top" topicName="pepper.prom.q16" language="nl_NL" />
+        <Topic name="pepper.prom.q17_dun" src="pepper.prom.q17/pepper.prom.q17_dun.top" topicName="pepper.prom.q17" language="nl_NL" />
+        <Topic name="pepper.prom.q18_dun" src="pepper.prom.q18/pepper.prom.q18_dun.top" topicName="pepper.prom.q18" language="nl_NL" />
+        <Topic name="pepper.prom.q19_dun" src="pepper.prom.q19/pepper.prom.q19_dun.top" topicName="pepper.prom.q19" language="nl_NL" />
+        <Topic name="pepper.prom.q20_dun" src="pepper.prom.q20/pepper.prom.q20_dun.top" topicName="pepper.prom.q20" language="nl_NL" />
+        <Topic name="pepper.prom.q21_dun" src="pepper.prom.q21/pepper.prom.q21_dun.top" topicName="pepper.prom.q21" language="nl_NL" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="nl_NL">
