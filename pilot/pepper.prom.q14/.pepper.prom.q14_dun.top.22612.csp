@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q14()
+language: dun
+
+concept:(pepper.prom.q14) ["Kunt u de woorden herhalen die u eerder moest onthouden?"]
+
+u:(e:onStart) $showPage=Question14 ~pepper.prom.q14 $onStopped=1

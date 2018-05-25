@@ -1,0 +1,10 @@
+topic: ~Question2()
+language: enu
+
+# Defining extra concepts out of words or group of words
+concept:(question2) Please do what is on the screen
+# Replying to speech
+u:(e:onStart)$output_webpagina=Question21 ~question2
+
+
+$onStopped=1

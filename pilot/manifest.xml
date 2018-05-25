@@ -4,20 +4,15 @@
   <name lang="en_US">Untitled</name>
  </names>
  <supportedLanguages>
-  <language>en_US</language>
   <language>nl_NL</language>
  </supportedLanguages>
  <descriptionLanguages>
-  <language>en_US</language>
   <language>nl_NL</language>
  </descriptionLanguages>
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
  </contents>

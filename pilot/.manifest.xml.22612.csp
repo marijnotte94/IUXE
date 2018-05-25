@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="res-c08a94">
+ <names>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>nl_NL</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>nl_NL</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="pepper.prom.q13" typeVersion="1.0">
+   <topic language="nl_NL" path="pepper.prom.q13/pepper.prom.q13_dun.top"/>
+  </dialogContent>
+  <dialogContent topicName="pepper.prom.q14" typeVersion="1.0">
+   <topic language="nl_NL" path="pepper.prom.q14/pepper.prom.q14_dun.top"/>
+  </dialogContent>
+  <dialogContent topicName="pepper.prom.q16" typeVersion="1.0">
+   <topic language="nl_NL" path="pepper.prom.q16/pepper.prom.q16_dun.top"/>
+  </dialogContent>
+  <dialogContent topicName="pepper.prom.q17" typeVersion="1.0">
+   <topic language="nl_NL" path="pepper.prom.q17/pepper.prom.q17_dun.top"/>
+  </dialogContent>
+  <dialogContent topicName="pepper.prom.q20" typeVersion="1.0">
+   <topic language="nl_NL" path="pepper.prom.q20/pepper.prom.q20_dun.top"/>
+  </dialogContent>
+  <dialogContent topicName="pepper.prom.q21" typeVersion="1.0">
+   <topic language="nl_NL" path="pepper.prom.q21/pepper.prom.q21_dun.top"/>
+  </dialogContent>
+ </contents>
+</package>
