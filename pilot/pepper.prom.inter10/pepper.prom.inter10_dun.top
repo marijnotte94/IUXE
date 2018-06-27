@@ -1,8 +1,0 @@
-topic: ~pepper.prom.inter10()
-language: dun
-
-concept:(pepper.prom.inter10)[" Ik heb teveel tv gekeken vandaag, mijn ogen zijn niet zo goed meer. Kunt u het papier voor mijn gezicht houden?"]
-
-
-
-u:(e:onStart) ~pepper.prom.inter10 $onStopped=1

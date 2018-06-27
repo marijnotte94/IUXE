@@ -1,0 +1,9 @@
+topic: ~pepper.prom.inter11()
+language: dun
+
+concept:(pepper.prom.inter11)[" Wilt u het papier voor mijn hoofd houden? Dan maak ik er een foto van"]
+
+
+
+u:(e:onStart) ~pepper.prom.inter11 $onStopped=1
+

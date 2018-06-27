@@ -1,0 +1,6 @@
+topic: ~pepper.prom.inter1()
+language: dun
+
+concept:(pepper.prom.inter1) ["Kunt u mij de volledige datum van vandaag vertellen?"]
+
+u:(e:onStart)  $doAnimation=1  \rspd=80\ ~pepper.prom.inter1 $onStopped=1

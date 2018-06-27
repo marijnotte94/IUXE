@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="storymode-cd8c86" version="0.0.0">
+ <names>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>nl_NL</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>nl_NL</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter10">
+   <topic language="nl_NL" path="pepper.prom.inter10/pepper.prom.inter10_dun.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter9">
+   <topic language="nl_NL" path="pepper.prom.inter9/pepper.prom.inter9_dun.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter6">
+   <topic language="nl_NL" path="pepper.prom.inter6/pepper.prom.inter6_dun.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter11">
+   <topic language="nl_NL" path="pepper.prom.inter11/pepper.prom.inter11_dun.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.prom.inter0">
+   <topic language="nl_NL" path="pepper.prom.inter0/pepper.prom.inter0_dun.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="pepper.intro.explanationstory">
+   <topic language="nl_NL" path="pepper.intro.explanationstory/pepper.intro.explanationstory_dun.top"/>
+  </dialogContent>
+ </contents>
+</package>

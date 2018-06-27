@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q2()
+language: dun
+
+concept:(pepper.prom.q2) ^rand["Welk seizoen is het?" "In welk seizoen zijn we?"]
+
+u:(e:onStart) $showPage=Question2 ~pepper.prom.q2 $onStopped=1

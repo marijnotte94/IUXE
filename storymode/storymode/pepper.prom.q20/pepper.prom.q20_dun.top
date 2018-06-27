@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q20()
+language: dun
+
+concept:(pepper.prom.q20) ["Neem een papier dat op tafel ligt. Kan u voor mij een zin opschrijven? "]
+
+u:(e:onStart) $showPage=Question20 ~pepper.prom.q20 $onStopped=1

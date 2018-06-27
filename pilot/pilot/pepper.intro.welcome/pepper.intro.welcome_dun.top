@@ -1,0 +1,7 @@
+topic: ~pepper.intro.welcome()
+language: dun
+
+include:constants_dun.top
+
+concept:(pepper.intro.welcome) ^rand["Aangenaam ~values.name" "Welkom ~values.name" "Hallo ~values.name"]
+u:(e:onStart) ~pepper.intro.welcome $onStopped=1

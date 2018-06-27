@@ -1,0 +1,6 @@
+topic: ~pepper.intro.explanationstory()
+language: dun
+
+concept:(pepper.intro.explanationstory) ["Ik heb wat hulp nodig. \pau=1000\ Kunt u mij hierbij helpen? \pau=1000\    "]
+
+u:(e:onStart) ~pepper.intro.explanationstory $onStopped=1

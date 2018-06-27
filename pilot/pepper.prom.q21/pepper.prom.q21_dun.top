@@ -1,6 +1,0 @@
-topic: ~pepper.prom.q21()
-language: dun
-
-concept:(pepper.prom.q21) ["Neem een papier dat op tafel ligt. Kan u de figuur natekenen die op het scherm te zien is? "]
-
-u:(e:onStart) $showPage=Question21 ~pepper.prom.q21 $onStopped=1

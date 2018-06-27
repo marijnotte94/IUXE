@@ -1,0 +1,8 @@
+topic: ~pepper.prom.inter8()
+language: dun
+
+concept:(pepper.prom.inter8)["Ik heb al een aantal cadeaus gehad. Ik weet alleen niet wat het zijn. Kunt u me helpen?"]
+
+
+
+u:(e:onStart) ~pepper.prom.inter8 $onStopped=1

@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q14()
+language: dun
+
+concept:(pepper.prom.q14) ["Ik ben alweer vergeten wat ik mee moest nemen voor het feest. Weet u het nog?"]
+
+u:(e:onStart) $showPage=Question14 ~pepper.prom.q14 $onStopped=1

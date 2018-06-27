@@ -1,0 +1,11 @@
+topic: ~pepper.prom.inter2()
+language: dun
+
+concept:(pepper.prom.inter2.birthday) ^rand["Ik zie dat ik bijna jarig ben."]
+concept:(pepper.prom.inter2.friends) ^rand["Mijn vrienden willen graag langskomen." "Mijn vrienden willen me graag cadeaus brengen."]
+concept:(pepper.prom.inter2.newhere) ^rand["Ik ben nieuw hier." "Ik woon hier pas kort."]
+concept:(pepper.prom.inter2.address) ^rand["Ik kan het adres niet onthouden." "Ik ken het adres nog niet goed."]
+concept:(pepper.prom.inter2.help) ^rand["Kunt u mij helpen?"]
+
+
+u:(e:onStart) ~pepper.prom.inter2.birthday \pau=100\ ~pepper.prom.inter2.friends \pau=100\ ~pepper.prom.inter2.newhere \pau=100\ $doAnimation=1 ~pepper.prom.inter2.address \pau=100\ ~pepper.prom.inter2.help \pau=100\ $onStopped=1

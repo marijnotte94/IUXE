@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q13()
+language: dun
+
+concept:(pepper.prom.q13) ["Wilt u het woord\pau=100\ “dorst” \pau=100\ van achteren naar voren spellen?"]
+
+u:(e:onStart) $showPage=Question13 ~pepper.prom.q13 $onStopped=1

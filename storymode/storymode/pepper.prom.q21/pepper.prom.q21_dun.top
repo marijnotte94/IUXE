@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q21()
+language: dun
+
+concept:(pepper.prom.q21) ["Neem een papier dat op tafel ligt. Kunt u de figuur  \rspd = 65\ natekenen \rspd=80\ die op het scherm te zien is? "]
+
+u:(e:onStart) $showPage=Question21 ~pepper.prom.q21 $onStopped=1

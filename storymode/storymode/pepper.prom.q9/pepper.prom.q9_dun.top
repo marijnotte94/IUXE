@@ -1,0 +1,5 @@
+topic: ~pepper.prom.q9()
+language: dun
+concept:(pepper.prom.q9) ^rand["In welk centrum bent u?" ]
+
+u:(e:onStart) $showPage=Question9 ~pepper.prom.q9 $onStopped=1

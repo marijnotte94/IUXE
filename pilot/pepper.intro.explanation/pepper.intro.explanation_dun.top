@@ -1,6 +1,0 @@
-topic: ~pepper.intro.explanation()
-language: dun
-
-concept:(pepper.intro.explanation) ["We gaan uw mentale gesteldheid testen. \pau=1000\ Het is een soort \pau=1\ enquête \pau=50\ maar dan verbaal.  \pau=1000\  Ik stel een vraag.  \pau=1000\ U kunt daar verbaal antwoord opgeven.  \pau=1000\  Soms zit er een opdracht tussen. U kunt die dan uitvoeren.  \pau=1000\  Alle spullen die u nodig heeft liggen op tafel.  \pau=1000\  Als u iets niet snapt kunt u altijd om verheldering vragen.  \pau=1000\  Zoals ik eerder ook al zei kunt u ook altijd om een verpleegkundige vragen  \pau=1000\ "]
-
-u:(e:onStart) ~pepper.intro.explanation $onStopped=1

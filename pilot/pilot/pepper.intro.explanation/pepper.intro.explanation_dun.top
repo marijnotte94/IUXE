@@ -1,0 +1,6 @@
+topic: ~pepper.intro.explanation()
+language: dun
+
+concept:(pepper.intro.explanation) ["Ik begin door een vraag te stellen.  \pau=1000\ U kunt daar verbaal antwoord opgeven.  \pau=1000\  Als u iets niet snapt kunt u altijd om verheldering vragen.  \pau=1000\ "]
+
+u:(e:onStart) ~pepper.intro.explanation $onStopped=1

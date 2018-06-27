@@ -1,0 +1,6 @@
+topic: ~pepper.prom.inter0()
+language: dun
+
+concept:(pepper.prom.inter0) ["Ik heb het erg druk de laatste tijd. Zo druk, dat ik geen tijdsbesef meer heb."]
+
+u:(e:onStart)  $doAnimation=1  \rspd=80\ ~pepper.prom.inter0 $onStopped=1

@@ -1,0 +1,6 @@
+topic: ~pepper.generic.thinking()
+language: dun
+
+concept:(pepper.generic.thinking) ^rand["Laat me even nadenken" "Ik moet even nadenken"]
+
+u:(e:onStart) $doAnimation=1 ~pepper.generic.thinking $onStopped=1

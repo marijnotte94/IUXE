@@ -1,0 +1,6 @@
+topic: ~pepper.intro.greetings()
+language: dun
+
+concept:(pepper.intro.greetings) ^rand[Hoi Hallo Goededag]
+
+u:(e:onStart) $doAnimation=1 ~pepper.intro.greetings $onStopped=1

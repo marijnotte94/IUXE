@@ -1,0 +1,6 @@
+topic: ~pepper.generic.ask.notunderstood()
+language: dun
+
+concept:(pepper.generic.ask.notunderstood) ["Wat was onduidelijk?" "Wat snapt u niet?" "Waar heeft u vragen over?"]
+
+u:(e:onStart) $doAnimation=1 ~pepper.generic.ask.notunderstood $onStopped=1

@@ -1,0 +1,4 @@
+topic: ~settings()
+language: dun
+
+u:(e:onStart) \rspd=10\$onStopped=1

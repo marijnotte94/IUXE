@@ -1,0 +1,8 @@
+topic: ~pepper.prom.inter3()
+language: dun
+
+concept:(pepper.prom.inter3)["Dank u wel. Ik kan niet wachten op mijn cadeau's. Ik ga straks boodschappen doen. Kunt u een aantal dingen voor me onthouden? Misschien kunt u de woorden herhalen, dan onthoud u ze beter"]
+
+
+
+u:(e:onStart) ~pepper.prom.inter3 $onStopped=1

@@ -1,0 +1,8 @@
+topic: ~pepper.intro.procedure()
+language: dun
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) We gaan een experiment uitvoeren. Ik ga wat vragen aan u stellen.  $onStopped=1
+
+

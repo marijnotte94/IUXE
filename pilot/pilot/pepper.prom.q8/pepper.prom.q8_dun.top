@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q8()
+language: dun
+
+concept:(pepper.prom.q8) ["In welke plaats zijn we?"]
+
+u:(e:onStart) $showPage=Question8 ~pepper.prom.q8 $onStopped=1

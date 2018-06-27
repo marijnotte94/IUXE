@@ -1,0 +1,9 @@
+topic: ~pepper.prom.inter5()
+language: dun
+
+concept:(pepper.prom.inter5)["Ik heb 100 mensen uitgenodigd. Helaas heeft een aantal gasten afgemeld Kunt u mij helpen om uit te rekenen hoeveel gasten er nog komen?
+."]
+
+
+
+u:(e:onStart) ~pepper.prom.inter5 $onStopped=1

@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q17()
+language: dun
+
+concept:(pepper.prom.q17) ["Wilt u de volgende zin herhalen: Geen als \pau=200\ en \pau=150\ of  maar"]
+
+u:(e:onStart) $showPage=Question17 ~pepper.prom.q17 $onStopped=1

@@ -7,6 +7,7 @@
     <Dialogs>
         <Dialog name="Dialogue" src="Dialogue/Dialogue.dlg" />
         <Dialog name="muziek" src="muziek/muziek.dlg" />
+        <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
     </Dialogs>
     <Resources>
         <File name="heeftslaapproblemen" src="html/_vti_cnf/heeftslaapproblemen.html" />
@@ -44,10 +45,12 @@
         <File name="script" src="html/script.js" />
         <File name="typed.min" src="html/typed.min.js" />
         <File name="RollingInTheDeep" src="html/RollingInTheDeep.mp3" />
+        <File name=".behavior.xar.12860" src="behavior_1/.behavior.xar.12860.csp" />
     </Resources>
     <Topics>
         <Topic name="Dialogue_dun" src="Dialogue/Dialogue_dun.top" topicName="Dialogue" language="nl_NL" />
         <Topic name="muziek_dun" src="muziek/muziek_dun.top" topicName="muziek" language="nl_NL" />
+        <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

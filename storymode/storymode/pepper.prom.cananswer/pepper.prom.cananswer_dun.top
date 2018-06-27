@@ -1,0 +1,6 @@
+topic: ~pepper.prom.cananswer()
+language: dun
+
+concept:(pepper.prom.cananswer) ["U kunt dan antwoord geven" "U kunt nu antwoord geven" "Het is nu mogelijk om antwoord te geven"]
+
+u:(e:onStart) ~pepper.prom.cananswer $onStopped=1

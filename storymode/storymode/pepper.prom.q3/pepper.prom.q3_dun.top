@@ -1,0 +1,6 @@
+topic: ~pepper.prom.q3()
+language: dun
+
+concept:(pepper.prom.q3) ^rand["Welke maand is het?" "In welke maand zijn we?"]
+
+u:(e:onStart) $showPage=Question3 ~pepper.prom.q3 $onStopped=1

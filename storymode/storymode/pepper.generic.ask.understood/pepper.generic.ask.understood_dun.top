@@ -1,0 +1,6 @@
+topic: ~pepper.generic.ask.understood()
+language: dun
+
+concept:(pepper.generic.ask.understood) ^rand["Snapt u het?" "Is dat duidelijk" "Heeft u het begrepen?" "Heeft u hier vragen over?"]
+
+u:(e:onStart) $doAnimation=1 ~pepper.generic.ask.understood $onStopped=1

@@ -1,0 +1,6 @@
+topic: ~pepper.intro.explanation.start()
+language: dun
+
+concept:(pepper.intro.explanation.start) ^rand["Dan ga ik nu het experiment uitleggen." "Dan ga ik nu uitleggen wat we gaan doen"]
+
+u:(e:onStart) ~pepper.intro.explanation.start $onStopped=1

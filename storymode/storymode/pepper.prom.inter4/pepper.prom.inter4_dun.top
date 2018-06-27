@@ -1,0 +1,8 @@
+topic: ~pepper.prom.inter4()
+language: dun
+
+concept:(pepper.prom.inter4)["Onthoud deze woorden goed, want ik ga ze straks nog eens vragen."]
+
+
+
+u:(e:onStart) ~pepper.prom.inter4 $onStopped=1

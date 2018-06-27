@@ -1,0 +1,8 @@
+topic: ~pepper.prom.inter6()
+language: dun
+
+concept:(pepper.prom.inter6)["Er komt ook een vriend langs van vakantie. Hij komt uit China. Daar lezen ze van rechts naar links. Kunt u mij hierbij helpen?"]
+
+
+
+u:(e:onStart) ~pepper.prom.inter6 $onStopped=1

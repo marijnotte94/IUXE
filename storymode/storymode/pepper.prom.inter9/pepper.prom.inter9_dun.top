@@ -1,0 +1,8 @@
+topic: ~pepper.prom.inter9()
+language: dun
+
+concept:(pepper.prom.inter9)["Dank u wel! Dit gaat een mooi feest worden! "]
+
+
+
+u:(e:onStart) ~pepper.prom.inter9 $onStopped=1

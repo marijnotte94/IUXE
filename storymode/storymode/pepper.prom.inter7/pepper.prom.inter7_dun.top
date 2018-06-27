@@ -1,0 +1,8 @@
+topic: ~pepper.prom.inter7()
+language: dun
+
+concept:(pepper.prom.inter7)["Ik ben alweer vergeten wat ik moet kopen voor het feest. Weet u het nog?"]
+
+
+
+u:(e:onStart) ~pepper.prom.inter7 $onStopped=1
